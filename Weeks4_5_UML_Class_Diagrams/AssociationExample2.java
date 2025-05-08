@@ -42,6 +42,10 @@ import java.util.ArrayList;
  class Car {  
     private String brand;  
 
+    private ArrayList<Person> drivers; // Sürücüler
+
+
+
     // Constructor  
     public Car(String brand) {  
         this.brand = brand;  

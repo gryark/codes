@@ -5,7 +5,7 @@ public class Car {
     private String code;               // -code : String  
     private float maxSpeed = 90.0f;    // -maxSpeed : float = 90.0  
     private int length = 60;           // -length : integer = 60  
-    public static int defaultLength = 80; // +defaultLength : integer = 80  
+    public int defaultLength = 80; // +defaultLength : integer = 80  
     protected float velocity = 30.0f;   // #velocity : float = 30.0  
 
     // Constructor  

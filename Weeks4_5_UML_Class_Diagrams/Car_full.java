@@ -6,7 +6,7 @@ public class Car {
         private String code;               // -code : String  
         private float maxSpeed = 90.0f;    // -maxSpeed : float = 90.0  
         private int length = 60;           // -length : integer = 60  
-        public static int defaultLength = 80; // +defaultLength : integer = 80  
+        public int defaultLength = 80; // +defaultLength : integer = 80  
         protected float velocity = 30.0f;   // #velocity : float = 30.0  
     
         // Constructor  
@@ -20,12 +20,12 @@ public class Car {
             return maxSpeed - (velocity / 2);  
         }  
     
-        public boolean isStopped() {  
+        private boolean isStopped() {  
             // Arabanın durup durmadığını kontrol et  
             return velocity <= 0;  
         }  
     
-        protected float defaultSpeed(int trainType) {  
+        private static float defaultSpeed(int trainType) {  
             // Varsayılan hız hesaplama mantığı (örnek)  
             return trainType * 10.0f;  
         }  
