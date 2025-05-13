@@ -99,6 +99,8 @@ class Expense {
 class Payment {  
     private double amount;  
 
+  
+
     public Payment(double amount) {  
         this.amount = amount;  
     }  
@@ -106,7 +108,7 @@ class Payment {
     public double getAmount() {  
         return amount;  
     }  
-}  
+
 
 // Örnek kullanım  
 

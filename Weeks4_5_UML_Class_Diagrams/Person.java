@@ -3,7 +3,16 @@ package Weeks4_5_UML_Class_Diagrams;
 import java.util.Date;
 import java.util.LinkedHashSet;  
 
+class Test {  
+    public static void main(String[] args) {  
+        // Test the Person class  
+        Person person = new Person("123-45-6789");  
+        person.name
+        
+}
+
 public class Person {  
+
     
     // Attributes  
     private String firstName;                 // First name of person (private)  
@@ -20,8 +29,9 @@ public class Person {
     public Person(String ssNo) {  
         this.ssNo = ssNo; // read-only: set only once via constructor  
         personsCounter++;  
-    }  
-
+    } 
+    
+    
     // Public method with 'out' and 'in' parameters to get full name as output parameter is not typical in Java;  
     // simulation: return via method return and input via argument  
     public String getName(String fn, String ln) {  

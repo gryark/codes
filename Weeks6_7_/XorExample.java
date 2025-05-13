@@ -30,6 +30,7 @@ class Exam {
     private Office office;             // Sınavın yapıldığı ofis  
     private LectureHall lectureHall;  // Sınavın yapıldığı derslik  
 
+    // XOR kuralı gereği sadece biri olmalı
     // Constructor sadece office ile sınav için  
     public Exam(Office office) {  
         this.office = office;  
