@@ -136,13 +136,13 @@ class Person {
     }  
 }
 
-/*************One to Many İkinci Örnek */
+/*************One to Many - İkinci Örnek */
 // Office sınıfı  
  class Office {  
     private String name;  
     private List<Employee> allocatedEmployees; // Çalışanları tutmak için bir liste  
 
-    public Office(String name) {  
+    public Office(String name ) {  
         this.name = name;  
         this.allocatedEmployees = new ArrayList<>();  
     }  
@@ -166,7 +166,7 @@ class Person {
     private String name;  
     private Office office; // Çalışanın bağlı olduğu ofis  
 
-    public Employee(String name) {  
+    public Employee(String name, Office office) {  
         this.name = name;  
     }  
 
