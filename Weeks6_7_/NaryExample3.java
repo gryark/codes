@@ -117,11 +117,15 @@ class Record {
 class SeasonPerformance {
     private Team team;              // "team" role
     private Year seasonYear;        // "season" role
-    private List<Player> players;   // Regular players
     private Player goalkeeper;      // "goalkeeper" role
-    private Record record;          // Performance record
+            // Performance record
+    private int goalsFor;
+    private int goalsAgainst;
+    private int wins;
+    private int losses;
+    private int ties;
 
-    public SeasonPerformance(Team team, Year seasonYear, Record record) {
+    public SeasonPerformance(Team team, Year seasonYear, Player goalkeeper, Record record) {
         this.team = team;
         this.seasonYear = seasonYear;
         this.players = new ArrayList<>();

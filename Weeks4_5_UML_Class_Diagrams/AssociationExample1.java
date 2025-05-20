@@ -32,6 +32,7 @@ class Professor {
 class Student {  
     // Özellikler  
     private String name; // Öğrencinin adı  
+    priavte ArrayList>Professor> professors; // Öğrencinin ders aldığı profesörler
 
     // Constructor  
     public Student(String name) {  

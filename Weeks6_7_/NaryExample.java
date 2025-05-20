@@ -62,7 +62,12 @@ class Lecturer {
     private Student student;  
     private Exam exam;  
     private Lecturer examiner; // 0..1 olabilir  
-    private double gradeValue;  
+    private double gradeValue; 
+    public Grade(Student s, Exam e) {
+
+    }
+
+   
 
     public Grade(Student student, Exam exam, Lecturer examiner, double gradeValue) {  
         this.student = student;  

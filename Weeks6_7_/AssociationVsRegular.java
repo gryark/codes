@@ -73,10 +73,6 @@ class Enrollment {
 /*
  * 2. Senaryo: Öğrenci aynı StudyProgram için birden fazla Enrollment yapabilir (çoklu kayıt)
  * 
- */
-
- import java.util.HashSet;  
-import java.util.Set;  
 
 class StudyProgram {  
     private String name;  
